@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixing German grammar errors right in your browser</title>
+<meta name="description" content="A Chrome extension that catches tricky German grammar mistakes while you type and explains the fix">
+<link rel="canonical" href="https://belikenative.com/chrome-extension-fix-common-grammar/">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.7;color:#333;background:#fff}
+h1{font-size:1.8em;line-height:1.3;margin-bottom:8px}
+h2{font-size:1.4em;margin-top:32px}
+h3{font-size:1.2em;margin-top:24px}
+p{margin:16px 0}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{padding-left:24px}
+li{margin:8px 0}
+.source{color:#666;font-size:14px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #eee}
+.footer{margin-top:40px;padding-top:20px;border-top:1px solid #eee;color:#666;font-size:14px}
+</style>
+</head>
+<body>
+<article>
+<h1>Fixing German grammar errors right in your browser</h1>
+<div class="source">Originally published at <a href="https://belikenative.com/chrome-extension-fix-common-grammar/">belikenative.com/chrome-extension-fix-common-grammar</a></div>
+<p>German grammar trips people up in ways that other languages don't. Three genders, four cases, and a verb placement system that feels backwards if you're coming from English. I've spent years working on this problem from the tooling side. Full disclosure: I built <a href="https://belikenative.com">BeLikeNative</a>, a free Chrome extension for real-time grammar and writing help. Take my perspective accordingly.</p>
+<h2>Where German grammar breaks down for English speakers</h2>
+<p>The trickiest part isn't vocabulary. It's structure. In English, word order is fairly rigid and predictable. German gives you more flexibility, but that flexibility comes with rules that are easy to get wrong.</p>
+<p>Take verb placement in subordinate clauses. An English speaker might write "Ich weiß, dass ich gehe zur Schule" because it follows English word order. The correct German is "Ich weiß, dass ich zur Schule gehe," with the verb kicked to the end. That shift feels unnatural at first. It takes repetition to internalize.</p>
+<p>Then there's gender and case agreement. "Einen gut Film" looks close enough, but "Film" is masculine and in the accusative case, so it needs to be "einen guten Film." These kinds of errors are subtle. A spell checker won't catch them.</p>
+<h2>How real-time correction actually helps</h2>
+<p>I noticed something while building <a href="https://belikenative.com">BeLikeNative</a>. People don't learn grammar rules by reading about them. They learn by getting corrected in context, right when they're writing something that matters to them.</p>
+<p>That's the core idea behind the extension. You're writing an email in Gmail or a message in WhatsApp Web, you make a case agreement error, and the correction shows up immediately with a short explanation in English. No need to open a separate tab or look up a grammar table. The feedback loop is tight, and that's what makes the pattern stick.</p>
+<p>I ran into an interesting example early on. A user kept writing "Ich sehe der Mann" instead of "Ich sehe den Mann." The accusative case changes "der" to "den" for masculine nouns, but this user had been making the same mistake for months without realizing it. After a week of seeing the correction pop up every time, the habit shifted. Small thing, but that's how grammar learning actually works.</p>
+<h2>Verb order and case errors the extension catches</h2>
+<p>The two biggest categories of mistakes I see are verb placement and gender/case agreement. They account for the majority of corrections.</p>
+<p>For verb placement, the extension handles main clauses where the verb must sit in the second position. It also catches subordinate clause errors where the conjugated verb belongs at the end. When a sentence starts with a time expression like "Gestern" or "Morgen," the tool makes sure the verb follows immediately after.</p>
+<p>For case agreement, it identifies mismatches between articles, adjectives, and nouns. German has nominative, accusative, dative, and genitive cases, and each one changes the article and adjective endings. The extension flags when these don't line up and suggests the corrected form. It also catches umlaut confusion and similar-looking word mix-ups.</p>
+<h2>Setting it up takes about thirty seconds</h2>
+<p>Install the extension from the Chrome Web Store. A green logo appears in your browser toolbar. Click it and you'll see three sections: settings, main functions, and custom functions.</p>
+<p>In the settings tab, pick German as your target language. <a href="https://belikenative.com">BeLikeNative</a> supports over 80 languages, but selecting German focuses the corrections on German-specific grammar patterns. You can also set the tone, switching between formal and informal depending on whether you're writing a business email or a casual chat. That distinction matters in German more than in most languages, since the formal "Sie" and informal "du" carry real social weight.</p>
+<p>The clipboard integration is the feature I use most. Highlight any text on a webpage, press Alt + 3, and the corrected version copies to your clipboard. Paste it with Ctrl + V. It works across Gmail, Google Docs, Notion, Slack, Telegram, and GitHub, so you don't need to switch between apps.</p>
+<h2>Tone awareness for formal and informal German</h2>
+<p>German has a sharper formal/informal divide than English does. Writing "du" when you should use "Sie" in a business email isn't just a grammar mistake. It's a social one. The extension picks up on tone settings and adjusts its suggestions accordingly.</p>
+<p>For intermediate learners, the English explanations alongside German corrections turned out to be more useful than I expected. Knowing that a correction happened is one thing. Understanding why the accusative case applies in that specific sentence is what actually builds the skill over time.</p>
+<h2>What it costs</h2>
+<p>There's a free tier with 25 daily corrections and a 1,000 character limit per correction. That's enough for short emails and messages. Paid plans start at $8/month for the Learner tier (50 daily corrections, 4,000 characters) and go up to $28/month for the Premium tier with the highest limits and priority features. I'd recommend starting with the free plan to see if the correction style works for you before upgrading.</p>
+<h2>Where I&#x27;m taking it next</h2>
+<p>I'm working on better handling of compound nouns and more nuanced dative/genitive distinctions, which are areas where even advanced learners stumble. The goal is to make the corrections feel less like a tool and more like a knowledgeable friend pointing something out.</p>
+<p>I build <a href="https://belikenative.com">BeLikeNative</a>, a free Chrome extension that helps you write better English anywhere on the web. No signup, no data collection.</p>
+<div class="footer">
+<p>Read the original at <a href="https://belikenative.com/chrome-extension-fix-common-grammar/">belikenative.com/chrome-extension-fix-common-grammar</a></p>
+<p><a href="https://belikenative.com">BeLikeNative</a> is a free Chrome extension for real-time grammar checking and writing improvement.</p>
+</div>
+</article>
+</body>
+</html>
